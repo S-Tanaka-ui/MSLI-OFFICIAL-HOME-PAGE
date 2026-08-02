@@ -1,0 +1,160 @@
+body{
+    background: linear-gradient(
+        to bottom,
+        rgb(243, 243, 243),
+        rgb(153, 153, 153)
+        );
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.kirikae{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.card_Ne{
+    color: aliceblue;
+    background: linear-gradient(
+        270deg,
+        rgb(138, 138, 138),
+        rgb(77, 77, 77)
+        );
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 18px;
+}
+.card_CSKA{
+    color: aliceblue;
+    background: linear-gradient(
+        45deg,
+        rgb(31, 117, 38),
+        rgb(103, 230, 114)
+        );
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 18px;
+}
+.card_FC{
+    color: aliceblue;
+    background-color: rgb(126, 156, 182);
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 18px;
+}
+.card_Herke{
+    color: aliceblue;
+    background: linear-gradient(
+        45deg,
+        rgb(20, 94, 204),
+        rgb(17, 58, 104)
+        );
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 18px;
+}
+.card_Yaklose{
+     color: aliceblue;
+    background: linear-gradient(
+        45deg,
+        rgb(233, 15, 15),
+        rgb(228, 123, 91)
+        );
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 18px;
+}
+.card_SK{
+     color: aliceblue;
+    background: linear-gradient(
+        45deg,
+        rgb(16, 91, 204),
+        rgb(3, 5, 17)
+        );
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 18px;
+}
+.card_Cherry{
+     color: aliceblue;
+    background: linear-gradient(
+        45deg,
+        rgb(235, 107, 228),
+        rgb(145, 54, 140)
+        );
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 18px;
+}
+.card_Colon{
+     color: aliceblue;
+    background: linear-gradient(
+        45deg,
+        rgb(18, 19, 18),
+        rgb(114, 114, 114)
+        );
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 18px;
+}
+.card_ASVLZ{
+     color: aliceblue;
+    background: linear-gradient(
+        45deg,
+        rgb(46, 20, 75),
+        rgb(120, 74, 206)
+        );
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 18px;
+}
+.card_Razenia{
+     color: aliceblue;
+    background: linear-gradient(
+        45deg,
+        rgb(170, 53, 17),
+        rgb(236, 235, 129)
+        );
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 18px;
+}
+.card_HJK{
+     color: aliceblue;
+    background: linear-gradient(
+        45deg,
+        rgb(177, 174, 35),
+        rgb(48, 107, 216)
+        );
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 18px;
+}
+.card_Irlo{
+     color: aliceblue;
+    background: linear-gradient(
+        45deg,
+        rgb(50, 228, 213),
+        rgb(236, 127, 213)
+        );
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 18px;
+}

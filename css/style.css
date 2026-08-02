@@ -1,0 +1,128 @@
+body{
+    background: linear-gradient(
+        to bottom,
+        rgb(153, 153, 153),
+        rgb(243, 243, 243)
+    );
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 20px;
+}
+h1{
+    color: aliceblue;
+    background: linear-gradient(
+        to right,
+        black,
+        rgb(153, 153, 153)
+    );
+    font-size: 45px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+.header_button{
+    color: black;
+    background: linear-gradient(
+        to right,
+        rgb(250, 248, 248),
+        rgb(216, 216, 216),
+        rgb(150, 150, 150)
+    );
+    font-size: 24px;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+.clubIcon_board{
+    background-color: rgb(68, 68, 68);
+    height: 180px;
+    border-radius: 5px;
+}
+h3{
+    color: aliceblue;
+}
+h2{
+    color: aliceblue;
+}
+.nextMatches_board{
+    background: linear-gradient(
+        to right,
+        rgb(104, 104, 104),
+        rgb(219, 219, 219)
+    );
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 260px;
+    border-radius: 5px;
+}
+.nextMatches_board_card{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    height: 180px;
+}
+.nextMatches_board_individual{
+    color: aliceblue;
+    border-radius: 13px;
+    text-align: center;     
+    vertical-align: middle;
+    background: linear-gradient(
+        black,
+        rgb(53, 53, 53)
+    );
+    width: 200px;
+}
+.news_board{
+    background: linear-gradient(
+        to right,
+        rgb(71, 71, 71),
+        rgb(145, 145, 145)
+    );
+    height: 270px;
+    border-radius: 5px;
+}
+.news_board_card{
+    display: flex;
+    gap: 10px;
+}
+img{
+    width: 250px;
+    height: 200px;
+}
+.standings_statistics{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 40px;
+    margin: 0 auto;
+}
+.standings_board{
+    color: aliceblue;
+    background: linear-gradient(
+        270deg,
+        black,
+        rgb(53, 53, 53)
+    );
+    padding: 100px;
+    border-radius: 5px;
+}
+.topScores_board{
+    color: aliceblue;
+     background: linear-gradient(
+        270deg,
+        black,
+        rgb(53, 53, 53)
+    );
+    padding: 100px;
+    border-radius: 5px;
+}
+.more{
+    color: aliceblue;
+}

@@ -1,0 +1,25 @@
+body{
+    background: linear-gradient(
+        to bottom,
+        rgb(243, 243, 243),
+        rgb(153, 153, 153)
+        );
+}
+.matchday_display{
+    display: flex;
+    justify-content: center;
+}
+.kirikae{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.block{
+    width: 900px;
+    margin: 0 auto;
+    height: 100px;
+    color: aliceblue;
+    background-color: black;
+    margin-bottom: 19px;
+    text-align: center;
+}

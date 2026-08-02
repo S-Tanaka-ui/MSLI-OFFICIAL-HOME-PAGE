@@ -1,0 +1,31 @@
+body{
+    background: linear-gradient(
+        to bottom,
+        rgb(243, 243, 243),
+        rgb(153, 153, 153)
+        );
+}
+.kirikae{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.standings_board{
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(137, 138, 138);
+}
+.block{
+    height: 40px;
+    color: aliceblue;
+    background-color: black;
+    margin-bottom: 5px;
+}
+.block span{
+    margin-left:15px;
+    margin-right: 20px;
+}
+.block a{
+    color: aliceblue;
+}

@@ -1,0 +1,38 @@
+body{
+    background: linear-gradient(
+        to bottom,
+        rgb(243, 243, 243),
+        rgb(153, 153, 153)
+        );
+}
+.kirikae{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.goal_board{
+    background-color: rgb(100, 100, 100);
+}
+.assists_board{
+    background-color: rgb(100, 100, 100);
+}
+.participation_board{
+    background-color: rgb(100, 100, 100);
+}
+.manOfTheMatch_board{
+    background-color: rgb(100, 100, 100);
+}
+.save_board{
+    background-color: rgb(100, 100, 100);
+}
+.cleanSheets_board{
+    background-color: rgb(100, 100, 100);
+}
+table{
+    border-collapse: separate;
+    border-spacing: 0 6px;
+}
+td{
+    color: aliceblue;
+    background-color: black;
+}
