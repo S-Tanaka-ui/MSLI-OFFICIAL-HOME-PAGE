@@ -88,14 +88,25 @@ h2{
     height: 270px;
     border-radius: 5px;
 }
-.news_board_card{
+.slider_inner{
+    width: 600px;
+    overflow: hidden;
+}
+.slider_inner ul{
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
-img{
+.slider_inner img{
     width: 250px;
-    height: 200px;
+    height: 150px;
+    object-fit: cover;
 }
+.news_slider {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
 .standings_statistics{
     display: flex;
     justify-content: center;
