@@ -5,7 +5,7 @@ function backHomepage(){
 }
 
 const kirikaeButton = document.querySelector(".category_kirikae");
-kirikaeButton.addEventListener("click", category_changer);
-function category_changer(){
-    window.location.href = "clubs2.html"
+kirikaeButton.addEventListener("click", category_kirikaepage);
+function category_kirikaepage(){
+    window.location.href = "statistics.html"
 }
