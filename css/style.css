@@ -89,19 +89,21 @@ h2{
     border-radius: 5px;
 }
 .slider_inner{
-    width: 600px;
+    width: 800px;
     overflow: hidden;
 }
 .slider_inner ul{
     display: flex;
-    gap: 20px;
+    gap: 10px;
+    list-style: none;
+    transition: transform 0.4s ease;
 }
 .slider_inner img{
     width: 250px;
     height: 150px;
     object-fit: cover;
 }
-.news_slider {
+.news_slider{
     display: flex;
     align-items: center;
     gap: 5px;
